@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-cd $HOME/Matrixteam4/Matrixteam-Matrix
+cd $HOME/Matrixteam-Matrix
 rm -rf $HOME/.telegram-cli
 install() {
 apt install dnsutils
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Matrixteam4/Matrixteam-Matrix
+chmod +x Matrixteam-Matrix
 chmod +x ts
 ./ts
 }
